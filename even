@@ -1,0 +1,19 @@
+import java.util.*;
+public class even{
+	public static void main(String[] x)
+	{
+	 System.out.println("Enter the number");
+	 Scanner sc=new Scanner(System.in);
+	 int num=sc.nextInt();
+	 int a=1;
+	 while(a<=num)
+	{
+	  if(a%2==0)
+	  {
+	    System.out.println(a);
+	  }
+	a++;
+	}
+	}
+}
+	
